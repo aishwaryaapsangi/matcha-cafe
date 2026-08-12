@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Valentine Letter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aldrich&family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Envelope Screen -->
+    <div id="cafe-container">
+      <div class="cafe-window">
+
+      <img src="cat-matcha.gif" class="cat-matcha" id="cafe-cat" />
+      <img src="start-order.png" alt="Start Order" class="btn start-btn"/>
+      </div>
+    </div>
+
+    <!-- Letter Screen -->
+    <div id="letter-container">
+      <div class="letter-window">
+        <div class="matcha-buttons" id="matcha-buttons">
+          <button class="drink-card" id="matcha-latte">
+            <img src="matcha-latte.png" alt="Matcha Latte">
+          </button>
+
+          <button class="drink-card" id="strawberry-matcha">
+              <img src="straw-matcha.png" alt="Strawberry Matcha">
+          </button>
+
+          <button class="drink-card" id="matcha-boba">
+              <img src="matcha-boba.png" alt="Matcha Boba">
+          </button>
+
+          <button class="drink-card" id="sakura-matcha">
+              <img src="sakura-matcha.png" alt="Sakura Matcha">
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="final-receipt" style="display: none">
+      <!-- <div class="final-window"> -->
+
+        
+        <div class="recipt-window">
+          <div class="gif-container">
+        <img src="matcha-sip.gif" class="matcha-sip" id="matcha-sip" style="display: none"  />
+        <img src="sakura-sip.gif" class="sakura-sip" id="sakura-sip" style="display: none" />
+        <img src="straw-sip.gif" class="straw-sip" id="straw-sip" style="display: none" />
+        <img src="boba-sip.gif" class="boba-sip" id="boba-sip" style="display: none" />
+        </div>
+        
+        <!-- <p id="final-text" class="final-text">
+          <strong>Valentine Date:</strong> Meow Restaurant at 7pm. Dress fancy!
+        </p> -->
+
+          </div>
+
+        <!-- <div class="buttons" id="letter-buttons">
+          <img src="yes.png" class="btn yes-btn" alt="Yes" />
+
+          <div class="no-wrapper">
+            <img src="no.png" class="btn no-btn" alt="No" />
+          </div> 
+        </div> -->
+      <!-- </div> -->
+
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
