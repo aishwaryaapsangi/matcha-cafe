@@ -47,11 +47,6 @@ sakuraBtn.addEventListener('click', () => {
     finalRecipt.style.display='flex';
     sakuraGif.style.display='block';
 
-    // title.textContent = "Yippeeee!";
-    // buttons.style.display = 'none';
-    // cat.src = "cat_dance.gif";
-    // document.querySelector(".letter-window").classList.add('final');
-    // finalText.style.display = 'block';
 
 });
 
@@ -59,13 +54,6 @@ bobaBtn.addEventListener('click', () => {
     letter.style.display = 'none';
     finalRecipt.style.display='flex';
     bobaGif.style.display='block';
-
-    // title.textContent = "Yippeeee!";
-    // buttons.style.display = 'none';
-    // cat.src = "cat_dance.gif";
-    // document.querySelector(".letter-window").classList.add('final');
-    // finalText.style.display = 'block';
-
 });
 
 
@@ -73,11 +61,6 @@ strawBtn.addEventListener('click', () => {
     letter.style.display = 'none';
     finalRecipt.style.display='flex';
     strawGif.style.display='block';
-    // title.textContent = "Yippeeee!";
-    // buttons.style.display = 'none';
-    // cat.src = "cat_dance.gif";
-    // document.querySelector(".letter-window").classList.add('final');
-    // finalText.style.display = 'block';
 
 });
 
